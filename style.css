@@ -6,7 +6,7 @@
 
 body
 {
-    background-color: antiquewhite;
+    background-color:rgb(220, 239, 255);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ body
 
 .product-description
 {
-    background-color: rgb(163, 223, 223);
+    background-color:rgb(197, 221, 243);
     padding-left: 20px;
     height: 100%;
 
