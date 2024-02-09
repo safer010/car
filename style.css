@@ -1,0 +1,138 @@
+*
+{
+    /* para mag lagay ng backup na font paghiwalayin lang sila using , */
+    font-family: "Poppins","Sans-serif";
+}
+
+body
+{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card
+{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 55% 45%;
+    height: 120%;
+    width:60%;
+    box-shadow:10px 10px 25px 0px gray;
+}
+
+.product-image
+{
+    background-image: url(img/img1.jpg);
+    background-position:center;
+    background-repeat: no-repeat ;
+    padding: 40px 10px;
+}
+
+.product-description
+{
+    background-color: rgb(163, 223, 223);
+    padding-left: 20px;
+    height: 100%;
+
+}
+
+.car
+{
+    background-color: red;
+    width :100px;
+    color: white;
+    text-align: center;
+}
+
+.product-title
+{
+    font-weight: 700;
+}
+
+.product-details
+{
+    display:flex ;
+    flex-direction: column;
+}
+
+.color-price
+{
+    display:flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+
+.colors
+{
+    display: flex;
+    width:6rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.red
+{
+    background-color: red;
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.blue
+{
+    background-color: blue;
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.yellow
+{
+    background-color: yellow;
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.black
+{
+    background-color: black;
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.pricing
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12rem;
+}
+
+#button
+{
+    background-color: red;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.btn-text
+{
+    color: white;
+    font-size: 18px;
+}
+
+#message
+{
+    width: 450px;
+}
